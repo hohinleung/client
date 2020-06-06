@@ -42,9 +42,8 @@ $(document).ready(function () {
                 $('#anonymous').append(
     
                     '<br><table style="width:100%">'+
-                    '<tr><th> Username </th> <th> Post Date </th></tr>'  + '<tr><td>'+ data.anonymous[i].username + '</td>' +
-                    '<td>'+ data.anonymous[i].date + '</td></tr>'+
-                    '<tr><td colspan="2">Anonymous <tr></td>' + '<tr><td colspan="2">' +data.anonymous[i].Text + '<tr></td></table>' +
+                    '<tr> <th> Post Date </th><td>'+ data.anonymous[i].date + '</td></tr>'+
+                    '<tr><td colspan="2">Comment <tr></td>' + '<tr><td colspan="2">' +data.anonymous[i].Text + '<tr></td></table>' +
     
                     ( username == data.anonymous[i].username ?
     
